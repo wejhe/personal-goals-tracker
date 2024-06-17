@@ -1,0 +1,26 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.bg-brand {
+    background: #7011F5;
+}
+
+.bg-brand-gradient {
+    background: #7011F5;
+    background: -moz-linear-gradient(135deg, rgba(144,19,254,1) 0%, rgba(102,16,242,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(144,19,254,1) 0%, rgba(102,16,242,1) 100%);
+    background: linear-gradient(135deg, rgba(144,19,254,1) 0%, rgba(102,16,242,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9013fe",endColorstr="#6610f2",GradientType=1); 
+}
+
+.text-brand {
+    color: #7011F5;
+}
+
+.text-ice {
+    color: #F9F3FE;
+}
