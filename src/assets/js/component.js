@@ -25,3 +25,5 @@ const navbar = {
         `
     }
 }
+
+window.navbar = navbar;
