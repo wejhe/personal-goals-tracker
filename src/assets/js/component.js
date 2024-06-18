@@ -44,7 +44,7 @@ const summary = {
                             <i class="bi bi-plus-lg me-2"></i>
                             Add New Goal
                         </button>
-                        <button type="button" class="btn btn-outline-brand">Reset Progress</button>
+                        <button type="button" class="btn btn-outline-brand rounded-3">Reset Progress</button>
                     </div>
                     <div class="col card text-ice rounded-4 border border-0 bg-brand-svg ms-5">
                         <div class="card-body">
