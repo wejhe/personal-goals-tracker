@@ -6,15 +6,39 @@ body {
 }
 
 .bg-brand {
-    background: #7011F5;
+    background: #7F2EF1;
+}
+
+.bg-brand-svg {
+    background-image: url('/src/assets/img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-brand-gradient {
-    background: #7011F5;
+    background: #7F2EF1;
     background: -moz-linear-gradient(135deg, rgba(144,19,254,1) 0%, rgba(102,16,242,1) 100%);
     background: -webkit-linear-gradient(135deg, rgba(144,19,254,1) 0%, rgba(102,16,242,1) 100%);
     background: linear-gradient(135deg, rgba(144,19,254,1) 0%, rgba(102,16,242,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9013fe",endColorstr="#6610f2",GradientType=1); 
+}
+
+.btn-brand {
+    --bs-btn-color: #F9F3FE;
+    --bs-btn-bg: #7F2EF1;
+    --bs-btn-border-color: #7F2EF1;
+    --bs-btn-hover-color: #F9F3FE;
+    --bs-btn-hover-bg: #7011F5;
+    --bs-btn-hover-border-color: #7011F5;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #F9F3FE;
+    --bs-btn-active-bg: #6109DC;
+    --bs-btn-active-border-color: #6109DC;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #FFFFFF;
+    --bs-btn-disabled-bg: #C7ACEC;
+    --bs-btn-disabled-border-color: #C7ACEC;
 }
 
 .text-brand {
@@ -23,4 +47,8 @@ body {
 
 .text-ice {
     color: #F9F3FE;
+}
+
+.text-shrink {
+    letter-spacing: -1px;
 }
