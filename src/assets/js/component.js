@@ -1,6 +1,6 @@
 const navbar = {
     background: "bg-brand-gradient",
-    img: "/assets/img/logoIce.svg",
+    img: "./assets/img/logoIce.svg",
     title: "Personal Goals Tracker",
     color: "text-ice",
 
