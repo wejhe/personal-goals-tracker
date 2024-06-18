@@ -40,7 +40,7 @@ const summary = {
                 <div class="row">
                     <div class="col me-5">
                         <h1 class="fw-bold text-shrink">You have ${this.numOfActiveGoals} active goals</h1>
-                        <p>This is some text within a card body.</p>
+                        <p>${this.subtitle}</p>
                         <button type="button" class="btn btn-brand rounded-3 me-2">
                             <i class="bi bi-plus-lg me-2"></i>
                             Add New Goal
