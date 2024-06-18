@@ -6,6 +6,12 @@
     <title>Personal Goals Tracker</title>
 </head>
 <body id="body">
+    <!-- Include this script tag only during development -->
+    <!-- [if !dist]-->
     <script src="/dist/main.js"></script>
+    <!-- [endif]-->
+    <script>
+        navbar.inflate("body");
+    </script>
 </body>
 </html>

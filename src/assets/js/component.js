@@ -1,6 +1,8 @@
+import logoIce from '/src/assets/img/logoIce.svg';
+
 const navbar = {
     background: "bg-brand-gradient",
-    img: "./assets/img/logoIce.svg",
+    img: logoIce,
     title: "Personal Goals Tracker",
     color: "text-ice",
 
