@@ -41,7 +41,7 @@ body {
     --bs-btn-disabled-border-color: #C7ACEC;
 }
 
-.btn-outline-primary {
+.btn-outline-brand {
     --bs-btn-color: #7F2EF1;
     --bs-btn-border-color: #7F2EF1;
     --bs-btn-hover-color: #F9F3FE;
